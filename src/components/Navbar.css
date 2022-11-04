@@ -34,6 +34,7 @@
     color: #20448C;
     background-color: #F2CE1B;
     border: solid #20448C 0.5px;
+    font-size: 0.9rem;
 }
 .navbar ul .find:hover {
     color: #F2CE1B;
