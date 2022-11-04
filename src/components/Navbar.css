@@ -1,0 +1,41 @@
+.navbar{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar img{
+    height: 70px;
+    width: 200px;
+    margin-left: 20px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+.navbar ul li{
+    margin-right: 40px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.navbar ul li:hover {
+    color: #000080;
+}
+
+.navbar ul .find {
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    color: #20448C;
+    background-color: #F2CE1B;
+    border: solid #20448C 0.5px;
+}
+.navbar ul .find:hover {
+    color: #F2CE1B;
+    background-color: #20448C;
+}
