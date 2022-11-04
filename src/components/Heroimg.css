@@ -58,6 +58,7 @@
     font-size: 0.9rem;
     font-weight: bold;
     margin-right: 40px;
+    cursor: pointer;
 }
 .heroimg .middle button:hover {
     color: #F2CE1B;
@@ -93,5 +94,5 @@
    color: #212529;
 }
 .heroimg .down .box .text .content {
-    flood-color: #6C757D;
+    color: #6C757D;
 }
