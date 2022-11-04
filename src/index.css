@@ -3,3 +3,69 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+.slick-slide > div {
+    margin: 0 20px;
+}
+.slick-list{
+    margin: 0 -20px;
+}
+.carousel{
+    margin: 0 40px;
+}
+.c-card{
+    width:247px;
+    -webkit-box-shadow: 1px 1px 11px 1px rgba(0,0,0,0.26); 
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.c-top{
+    height: 200px;
+    position: relative;
+    
+}
+.c-top .date{
+    position: absolute;
+    top:10%;
+    right: 10%;
+    z-index:2;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 0.8rem;
+    padding: 10px;
+    border-radius: 10px;
+    color: #6C757D;
+}
+.c-top .date .date-up{
+    font-weight: bold;
+}
+.c-top .name{
+    position: absolute;
+    top:60%;
+    left:8%;
+    z-index:20;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.c-top img{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top:0;
+}
+.c-bottom {
+    height: 300px;
+    color: #6C757D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.c-bottom .intro{
+    font-size: 0.9rem;
+}
+.c-bottom .duration, .frequency{
+    font-size: 0.9rem;
+    color:black
+}
