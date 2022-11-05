@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Heroimg from "./components/Heroimg";
 import Carousel from "./components/Carousel";
+import PicLists from "./components/PicLists";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
      <Navbar />
      <Heroimg />
      <Carousel />
+     <PicLists />
     
     </div>
   );

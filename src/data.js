@@ -71,3 +71,67 @@ export const activities = [
     },
     
 ]
+
+export const pictures = [
+    {   
+        id: 1,
+        imgLink: "/img/8.jpg",
+        title: "Food"
+    },
+    {
+        id: 2,
+        imgLink: "/img/9.jpg",
+        title: "Caring for People"
+    },
+    {
+        id: 3,
+        imgLink: "/img/10.jpg",
+        title: "Science and Technology"
+    },
+    {
+        id: 4,
+        imgLink: "/img/11.jpg",
+        title: "Travel"
+    },
+    {
+        id: 5,
+        imgLink: "/img/12.jpg",
+        title: "Languages"
+    },
+    {
+        id: 6,
+        imgLink: "/img/13.jpg",
+        title: "Local Knowledge"
+    },
+    {
+        id: 7,
+        imgLink: "/img/14.jpg",
+        title: "The Natural World"
+    },
+    {
+        id: 8,
+        imgLink: "/img/15.jpg",
+        title: "Sports"
+    },
+    {
+        id: 9,
+        imgLink: "/img/16.jpg",
+        title: "Teaching and Learning"
+    },
+    {
+        id: 10,
+        imgLink: "/img/17.jpg",
+        title: "The Arts"
+    },
+    {
+        id: 11,
+        imgLink: "/img/18.jpg",
+        title: "Animals"
+    },
+    {
+        id: 12,
+        imgLink: "/img/19.jpg",
+        title: "Wordl Affairs"
+    },
+
+]
