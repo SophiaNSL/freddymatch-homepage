@@ -1,0 +1,22 @@
+.picLists {
+    margin-top: 20vh;
+}
+.picLists .text{
+    margin-left: 8%;
+    margin-bottom: 5vh;
+}
+.picLists .text .text1{
+    color: #20448C;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.picLists .text .text2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.picLists .lists{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
