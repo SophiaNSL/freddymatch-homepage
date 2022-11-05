@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Heroimg from "./components/Heroimg";
 import Carousel from "./components/Carousel";
 import PicLists from "./components/PicLists";
+import Partners from "./components/Partners";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
      <Heroimg />
      <Carousel />
      <PicLists />
+     <Partners />
     
     </div>
   );
