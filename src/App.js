@@ -1,22 +1,17 @@
-import Navbar from "./components/Navbar";
-import Heroimg from "./components/Heroimg";
-import Carousel from "./components/Carousel";
-import PicLists from "./components/PicLists";
-import Partners from "./components/Partners";
-import Footer from "./components/Footer";
-import ScrollToTop from "./components/ScrollToTop";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home';
+import Login from './Pages/Login';
+
 
 function App() {
   return (
     <div className="App">
-     <Navbar />
-     <Heroimg />
-     <Carousel />
-     <PicLists />
-     <Partners />
-     <Footer />
-     <ScrollToTop />
-    
+     <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />}/> 
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

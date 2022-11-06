@@ -1,0 +1,74 @@
+.login{
+    height: 100vh;
+    background-color: #20448C;
+    display: flex;
+    justify-content: center;
+    color:#6C757D;
+}
+.login .container{
+    width: 50%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.login .container .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+.login .container .logo img{
+    height: 70px;
+    width: 240px;
+}
+.login .container h1{
+    color:black;
+   margin-left: 18%;
+}
+.login .container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.login .container form .item{
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+.login .container form .item input{
+   margin-top: 10px;
+   padding: 10px;
+   width: 100%;
+   font-size: 1.1rem;
+   border-radius: 5px;
+}
+.login .container form button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    color: #20448C;
+    background-color: #F2CE1B;
+    border: solid #20448C 0.5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-right: 40px;
+    cursor: pointer;
+    width: 200px;
+}
+.login .container form button:hover{
+    color: #F2CE1B;
+    background-color: #20448C;
+}
+.login .container .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.login .container a{
+  text-decoration: none;
+  
+}
