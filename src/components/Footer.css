@@ -1,0 +1,115 @@
+.footer {
+    background-color: #20448C;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    position: relative;
+}
+.footer .up {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20vh;
+}
+.footer .up .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.footer .up .left img{
+    height: 81px;
+    width: 280px;
+    margin-bottom: 20px;
+}
+.footer .up .left .icons{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer .up .left .icons .icon{
+    height: 28px;
+    width: 32px;
+    margin: 4px;
+    color:#ADB5BD;
+}
+.footer .up .left .icons .icon:hover{
+    color:#F2CE1B;
+}
+.footer .up .left .icons .icon.last {
+    height: 36px;
+    width: 45px;
+}
+.footer .up .left .links a{
+    color:#ADB5BD; 
+    text-decoration: none;
+}
+.footer .up .info{
+    display: flex;
+    
+}
+.footer .up .info .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+
+}
+.footer .up .info .box .text1{
+    font-size: 16px;
+    font-weight: bold;
+    color:#fff;
+}
+.footer .up .info .box a{
+    color:#ADB5BD;
+    text-decoration: none;
+}
+.footer .up .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer .up .right img{
+    height: 150px;
+    width: 150px;
+   
+}
+.footer .up .right button {
+    padding: 12px 15px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    color: #F2CE1B;
+    border: solid #F2CE1B 0.5px;
+    background-color: #20448C;
+    font-size: 0.9rem;
+    width:100px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.footer .up .right button:hover{
+    color:#20448C;
+    background-color: #F2CE1B;
+}
+.footer .up .right a{
+    color:#ADB5BD;
+    text-decoration: none;
+}
+.footer .middle{
+    position: absolute;
+    bottom: 11vh;
+    padding: 0 7%;
+    font-style: italic;
+}
+.footer .down{
+    background-color: #F2CE1B;
+    height: 8vh;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}

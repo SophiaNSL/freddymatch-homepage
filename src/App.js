@@ -3,6 +3,7 @@ import Heroimg from "./components/Heroimg";
 import Carousel from "./components/Carousel";
 import PicLists from "./components/PicLists";
 import Partners from "./components/Partners";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <Carousel />
      <PicLists />
      <Partners />
+     <Footer />
     
     </div>
   );
