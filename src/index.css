@@ -18,6 +18,10 @@ body {
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.4s;
+}
+.c-card:hover{
+    transform: translateY(-5px);
 }
 .c-top{
     height: 200px;
