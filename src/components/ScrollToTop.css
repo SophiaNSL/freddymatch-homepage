@@ -1,0 +1,17 @@
+.sttBtn{
+ position: relative;
+}
+.sttBtn button{
+    position: fixed;
+    bottom: 11vh;
+    right: 20px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    color: #20448C;
+    background-color: #F2CE1B;
+    border: solid #20448C 0.5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}

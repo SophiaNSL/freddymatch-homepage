@@ -4,6 +4,7 @@ import Carousel from "./components/Carousel";
 import PicLists from "./components/PicLists";
 import Partners from "./components/Partners";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
      <PicLists />
      <Partners />
      <Footer />
+     <ScrollToTop />
     
     </div>
   );
