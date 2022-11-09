@@ -7,9 +7,9 @@ const PicLists = () => {
   return (
     <div className='picLists'>
         <div className="text">
-            <div className="text1">WHAT ARE YOU PASSIONATE ABOUT?</div>
-            <div className="text2">From gardening to web development, we have a</div>
-            <div className="text2">volunteering opportunity for you!</div>
+            <div className="text1">Lorem ipsum dolor sit amet?</div>
+            <div className="text2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+            <div className="text2"> Soluta, aperiam. Soluta, aperiam.</div>
         </div>
        
         <div className="lists">

@@ -9,7 +9,7 @@ const Login = () => {
     <div className='login'>
       <div className="container">
           <div className="logo">
-             <img src="/img/logo.svg" alt="logo" />
+             <img src="/img/logo.png" alt="logo" />
              <Link to='/'><GrClose /></Link>
           </div>
           <h1>Welcome back</h1>

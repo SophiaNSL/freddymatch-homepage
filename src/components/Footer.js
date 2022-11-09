@@ -4,6 +4,8 @@ import { ImFacebook2 } from 'react-icons/im'
 import { BsInstagram } from 'react-icons/bs'
 import { BsLinkedin } from 'react-icons/bs'
 import { BsYoutube } from 'react-icons/bs'
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -13,7 +15,7 @@ const Footer = () => {
         
         <div className="up">
             <div className="left">
-                <img src="/img/20.svg" alt="logo" />
+                <img src="/img/logo1.png" alt="logo" />
                 <div className="icons">
                     <ImFacebook2 className='icon'/>
                     <BsInstagram className='icon'/>
@@ -28,7 +30,7 @@ const Footer = () => {
             <div className="info">
                 <div className="box">
                     <div className="text1">VOLUNTEERS</div>
-                    <a href="#">Log in</a>
+                    <Link to='/login' style={{ textDecoration: 'none' }}><a>Log in</a></Link>
                     <a href="#">Sign up</a>
                 </div>
                 <div className="box">
@@ -51,11 +53,11 @@ const Footer = () => {
         </div>
 
         <div className="middle">
-        We pay respect to elders past, present and emerging and humbly acknowledge all First Nations people. We acknowledge the Yugambeh and Bundjalung peoples, where Freddy was born, lived and passed away and are grateful for the deep connection we feel to Pooningbah. We recognise the wisdom and positive contribution of First Nations people to the health and wellbeing of our communities through cultural heritage, values and beliefs.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, eligendi sit! Nulla iusto inventore beatae explicabo ipsum eligendi hic iste delectus fugit iure dolorum tempora harum nam labore perspiciatis debitis quae ipsa officiis pariatur exercitationem, dolores quibusdam provident minus. Nihil?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt harum iure, quidem neque laboriosam vitae pariatur alias dolores illum fugiat ut accusamus nihil quo non modi? Magnam deleniti ullam, numquam molestias reprehenderit eos eum fugiat labore quidem consequatur id itaque.
         </div>
         <div className="down">
-            <div className="text1">2022, FreddyMatch. All rights reserved.</div>
-            <div className="text1">FreddyMatch is licensed to the Freddy Bear Foundation, a registered charity. ABN 44 633 434 716</div>
+            <div className="text1">2022, Sophia-webdev. All rights reserved.</div>
+            <div className="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, accusamus. adipisicing elit.</div>
         </div>
     
     </div>

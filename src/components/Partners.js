@@ -9,8 +9,8 @@ const Partners = () => {
   return (
     <div className='partners'>
        <div className="text-title">
-          <div className="text1">WHO WE WORK WITH</div>
-          <div className="text2">The FreddyMatch community is growing, be a part of it!</div>
+          <div className="text1">Lorem ipsum dolor sit</div>
+          <div className="text2">Lorem ipsum dolor sit, amet consectetur adipisicing elit!</div>
        </div>
 
        <div className="orgs">
@@ -18,7 +18,7 @@ const Partners = () => {
                <div className="icon">
                   <BiBuildingHouse />
                </div>
-               <div className="title">ORGANISATIONS</div>
+               <div className="title">Lorem ipsum</div>
                <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, assumenda.</div>
            </div>
 
@@ -26,7 +26,7 @@ const Partners = () => {
                <div className="icon">
                   <BsHouse />
                </div>
-               <div className="title">ORGANISATIONS</div>
+               <div className="title">Lorem ipsum</div>
                <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, assumenda.</div>
            </div>
 
@@ -35,7 +35,7 @@ const Partners = () => {
                <div className="icon">
                   <GiHandBag />
                </div>
-               <div className="title">ORGANISATIONS</div>
+               <div className="title">Lorem ipsum</div>
                <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, assumenda.</div>
            </div>
 
@@ -43,7 +43,7 @@ const Partners = () => {
                <div className="icon">
                   <BsHeart />
                </div>
-               <div className="title">ORGANISATIONS</div>
+               <div className="title">Lorem ipsum</div>
                <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, assumenda.</div>
            </div>
        </div>
@@ -51,10 +51,10 @@ const Partners = () => {
         <div className="resister">
              <div className="left">
                  <div className="title">
-                 VOLUNTEER USING FREDDYMATCH
+                 Lorem ipsum dolor ipsum dolor
                  </div>
                  <div className="content">
-                 FreddyMatch is the best way to explore amazing volunteering 
+                 Lorem ipsum dolor sit amet consectetur adipisicing. 
                  </div>
                  <div className="content">
                  opportunities
