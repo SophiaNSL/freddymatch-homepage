@@ -43,8 +43,8 @@ const Carousel = () => {
     
   return (
     <div className='carousel'>
-        <div className="subtitle">START YOUR VOLUNTEERING JOURNEY</div>
-        <div className="title">Trending volunteering opportunities near you</div>
+        <div className="subtitle">Lorem ipsum dolor sit Lorem ipsum dolor sit</div>
+        <div className="title">Lorem ipsum dolor sit amet Lorem ipsum dolor</div>
         <Slider {...settings}>
             {
                 activities.map( (activity) => (

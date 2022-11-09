@@ -69,6 +69,9 @@ body {
 .c-bottom .intro{
     font-size: 0.9rem;
 }
+.c-bottom .host{
+    text-transform: uppercase;
+}
 .c-bottom .duration, .frequency{
     font-size: 0.9rem;
     color:black
